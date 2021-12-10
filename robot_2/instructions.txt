@@ -1,0 +1,7 @@
+1- Copy the robot_2 package in the workspace
+2- Open terminal and navigate to the workspace
+3- Build the package: catkin build robot_2
+4- Source the setup.bash in the devel folder: source ./devel/setup.bash
+5- Launch the package: roslaunch robot_2 gazebo.launch
+6- Open another terminal, navigate to the workspace and source the setup from devel
+7- Run the script to demonstrate the movement of the arm: rosrun robot_2 arm.py
